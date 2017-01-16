@@ -11,11 +11,14 @@ public class PrintStar {
 			inputInt = scanner.nextInt();
 			switch(inputInt){
 				case 1:
+					while(inputInt<6){
 					for(int i =0;i<inputInt;i++)
-					{
-						System.out.println("*");
+					{	
+						System.out.print("*");
 					}
-					System.out.println('\n');
+					inputInt++;
+					System.out.print('\n');
+					}
 					break;
 				case 2:
 					System.out.println("    *");
